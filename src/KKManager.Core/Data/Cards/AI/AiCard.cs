@@ -1,11 +1,12 @@
-﻿using System;
+﻿using KKManager.Util;
+using MessagePack;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
-using KKManager.Util;
-using MessagePack;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace KKManager.Data.Cards.AI
 {
@@ -13,14 +14,18 @@ namespace KKManager.Data.Cards.AI
     {
         public override string Name => Parameter == null ? base.Name : $"{Parameter.fullname}";
         public override CharaSex Sex => Parameter == null ? CharaSex.Unknown : Parameter.sex == 0 ? CharaSex.Male : CharaSex.Female;
-        public override string PersonalityName => GetPersonalityName(Parameter?.personality ?? -1);
+        public override string PersonalityName1 => GetAisPersonalityName(Parameter?.personality ?? -1);
+        public override string PersonalityName2 => GetHs2PersonalityName(Parameter2?.personality ?? -1);
+        public override string Trait => Parameter2 == null ? string.Empty : $"{Parameter2.trait}";
+        public override string Mentality => Parameter2 == null ? string.Empty : $"{Parameter2.mind}";
+        public override string SexTrait => Parameter2 == null ? string.Empty : $"{Parameter2.hAttribute}";
 
         [ReadOnly(true)] public ChaFileParameter Parameter { get; private set; }
         [ReadOnly(true)] public ChaFileParameter2 Parameter2 { get; private set; }
         [ReadOnly(true)] public ChaFileGameInfo Gameinfo { get; private set; }
         [ReadOnly(true)] public ChaFileGameInfo2 Gameinfo2 { get; private set; }
 
-        public override Image GetCardFaceImage()
+        public override System.Drawing.Image GetCardFaceImage()
         {
             return null;
         }
@@ -85,7 +90,7 @@ namespace KKManager.Data.Cards.AI
             return card;
         }
 
-        public string GetPersonalityName(int personality)
+        public string GetAisPersonalityName(int personality)
         {
             if (Sex == CharaSex.Male) return "Male";
 
@@ -101,6 +106,36 @@ namespace KKManager.Data.Cards.AI
                 "Elegant Ideal Japanese",
                 "Friendly Tomboy",
                 "Tidy but Obsessed"
+            };
+
+            if (personality < 0 || personality > 90) return "Invalid";
+
+            if (personalityLookup.Length > personality)
+                return personalityLookup[personality];
+
+            return KKManager.Properties.Resources.Unknown;
+        }
+
+        public string GetHs2PersonalityName(int personality)
+        {
+            if (Sex == CharaSex.Male) return "Male";
+
+            string[] personalityLookup =
+            {
+                "Secretary",
+                "Vanilla",
+                "Caregiver",
+                "Girl-Next-Door",
+                "Airhead",
+                "Scaredy Cat",
+                "Mother Figure",
+                "Dominatrix",       
+                "Daredevil",
+                "Goofball",
+                "Intellectual",
+                "Japanese Ideal",
+                "Tomboy",
+                "Psycho Stalker"
             };
 
             if (personality < 0 || personality > 90) return "Invalid";

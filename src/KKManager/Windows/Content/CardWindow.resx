@@ -117,39 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="listView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="listView.Size" type="System.Drawing.Size, System.Drawing">
-    <value>805, 486</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="listView.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;listView.Name" xml:space="preserve">
-    <value>listView</value>
-  </data>
-  <data name="&gt;&gt;listView.Type" xml:space="preserve">
-    <value>BrightIdeasSoftware.FastObjectListView, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
-  </data>
-  <data name="&gt;&gt;listView.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;listView.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="olvColumnName.Text" xml:space="preserve">
     <value>Name</value>
   </data>
   <data name="olvColumnName.ToolTipText" xml:space="preserve">
     <value>Full name of the card.</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="olvColumnName.Width" type="System.Int32, mscorlib">
     <value>200</value>
   </data>
@@ -162,13 +136,49 @@
   <data name="olvColumnSex.Width" type="System.Int32, mscorlib">
     <value>35</value>
   </data>
-  <data name="olvColumnPersonality.Text" xml:space="preserve">
-    <value>Personality</value>
+  <data name="olvColumnPersonality1.Text" xml:space="preserve">
+    <value>Personality1</value>
   </data>
-  <data name="olvColumnPersonality.ToolTipText" xml:space="preserve">
-    <value>Name of the card's personality (as seen inside maker).</value>
+  <data name="olvColumnPersonality1.ToolTipText" xml:space="preserve">
+    <value>Personality 1</value>
   </data>
-  <data name="olvColumnPersonality.Width" type="System.Int32, mscorlib">
+  <data name="olvColumnPersonality1.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="olvColumnPersonality2.Text" xml:space="preserve">
+    <value>Personality2</value>
+  </data>
+  <data name="olvColumnPersonality2.ToolTipText" xml:space="preserve">
+    <value>Personality 2</value>
+  </data>
+  <data name="olvColumnPersonality2.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="olvColumnTrait.Text" xml:space="preserve">
+    <value>Trait</value>
+  </data>
+  <data name="olvColumnTrait.ToolTipText" xml:space="preserve">
+    <value>Trait</value>
+  </data>
+  <data name="olvColumnTrait.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="olvColumnMentality.Text" xml:space="preserve">
+    <value>Mentality</value>
+  </data>
+  <data name="olvColumnMentality.ToolTipText" xml:space="preserve">
+    <value>Mentality</value>
+  </data>
+  <data name="olvColumnMentality.Width" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="olvColumnSexTrait.Text" xml:space="preserve">
+    <value>Sex Trait</value>
+  </data>
+  <data name="olvColumnSexTrait.ToolTipText" xml:space="preserve">
+    <value>Sex trait</value>
+  </data>
+  <data name="olvColumnSexTrait.Width" type="System.Int32, mscorlib">
     <value>70</value>
   </data>
   <data name="olvColumnExtended.Text" xml:space="preserve">
@@ -246,29 +256,73 @@
   <data name="olvColumnVersion.ToolTipText" xml:space="preserve">
     <value>Version of the card's data format. Older version means the card was last saved with an older version of the game.</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="listView.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="listView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="listView.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="listView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1208, 755</value>
+  </data>
+  <data name="listView.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;listView.Name" xml:space="preserve">
+    <value>listView</value>
+  </data>
+  <data name="&gt;&gt;listView.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.FastObjectListView, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;listView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>556, 17</value>
   </metadata>
+  <data name="femaleCardFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 34</value>
+  </data>
+  <data name="femaleCardFolderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Female card folder</value>
+  </data>
+  <data name="maleCardFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 34</value>
+  </data>
+  <data name="maleCardFolderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Male card folder</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 6</value>
+  </data>
   <data name="toolStripOpenDropdown.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIFSURBVDhPpZLtS1NhGMbPPxJmmlYSgqHiKzGU1EDxg4iK
+        YKyG2WBogqMYJQOtCEVRFBGdTBCJfRnkS4VaaWNT5sqx1BUxRXxDHYxAJLvkusEeBaPAB+5z4Jzn+t3X
+        /aLhnEfjo8m+dCoa+7/C3O2Hqe0zDC+8KG+cRZHZhdzaaWTVTCLDMIY0vfM04Nfh77/G/sEhwpEDbO3t
+        I7TxE8urEVy99fT/AL5gWDLrTB/hnF4XsW0khCu5ln8DmJliT2AXrcNBsU1gj/MH4nMeKwBrPktM28xM
+        cX79DFKrHHD5d9D26hvicx4pABt2lpg10zYzU0zr7+e3xXGcrkEB2O2TNec9nJFwB3alZn5jZorfeDZh
+        6Q3g8s06BeCoKF4MRURoH1+BY2oNCbeb0TIclIYxOhzf8frTOuo7FxCbbVIAzpni0iceEc8vhzEwGkJD
+        lx83ymxifejdKjRNk/8PWnyIyTQqAJek0jqHwfEVscu31baIu8+90sTE4nY025dQ2/5FIPpnXlzKuK8A
+        HBUzHot52djqQ6HZhfR7IwK4mKpHtvEDMqvfCiQ6zaAAXM8x94aIWTNrLLG4kVUzgaTSPlzLtyJOZxbb
+        1wtfyg4Q+AfA3aZlButjSfxGcUJBk4g5tuP3haQKRKXcUQDOmbvNTpPOJeFFjordZmbWTNvMTHFUcpUC
+        nOccAdABIDXXE1nzAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripOpenDropdown.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
   <data name="toolStripOpenDropdown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 24</value>
+    <value>89, 29</value>
   </data>
   <data name="toolStripOpenDropdown.Text" xml:space="preserve">
     <value>Open...</value>
@@ -277,28 +331,28 @@
     <value>False</value>
   </data>
   <data name="addressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 23</value>
+    <value>298, 33</value>
   </data>
   <data name="toolStripButtonGo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIFSURBVDhPpZLtS1NhGMbPPxJmmlYSgqHiKzGU1EDxg4iK
+        YKyG2WBogqMYJQOtCEVRFBGdTBCJfRnkS4VaaWNT5sqx1BUxRXxDHYxAJLvkusEeBaPAB+5z4Jzn+t3X
+        /aLhnEfjo8m+dCoa+7/C3O2Hqe0zDC+8KG+cRZHZhdzaaWTVTCLDMIY0vfM04Nfh77/G/sEhwpEDbO3t
+        I7TxE8urEVy99fT/AL5gWDLrTB/hnF4XsW0khCu5ln8DmJliT2AXrcNBsU1gj/MH4nMeKwBrPktM28xM
+        cX79DFKrHHD5d9D26hvicx4pABt2lpg10zYzU0zr7+e3xXGcrkEB2O2TNec9nJFwB3alZn5jZorfeDZh
+        6Q3g8s06BeCoKF4MRURoH1+BY2oNCbeb0TIclIYxOhzf8frTOuo7FxCbbVIAzpni0iceEc8vhzEwGkJD
+        lx83ymxifejdKjRNk/8PWnyIyTQqAJek0jqHwfEVscu31baIu8+90sTE4nY025dQ2/5FIPpnXlzKuK8A
+        HBUzHot52djqQ6HZhfR7IwK4mKpHtvEDMqvfCiQ6zaAAXM8x94aIWTNrLLG4kVUzgaTSPlzLtyJOZxbb
+        1wtfyg4Q+AfA3aZlButjSfxGcUJBk4g5tuP3haQKRKXcUQDOmbvNTpPOJeFFjordZmbWTNvMTHFUcpUC
+        nOccAdABIDXXE1nzAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButtonGo.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonGo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 24</value>
+    <value>39, 29</value>
   </data>
   <data name="toolStripButtonGo.Text" xml:space="preserve">
     <value>Go</value>
@@ -306,23 +360,23 @@
   <data name="toolStripButtonRefresh.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIFSURBVDhPpZLtS1NhGMbPPxJmmlYSgqHiKzGU1EDxg4iK
+        YKyG2WBogqMYJQOtCEVRFBGdTBCJfRnkS4VaaWNT5sqx1BUxRXxDHYxAJLvkusEeBaPAB+5z4Jzn+t3X
+        /aLhnEfjo8m+dCoa+7/C3O2Hqe0zDC+8KG+cRZHZhdzaaWTVTCLDMIY0vfM04Nfh77/G/sEhwpEDbO3t
+        I7TxE8urEVy99fT/AL5gWDLrTB/hnF4XsW0khCu5ln8DmJliT2AXrcNBsU1gj/MH4nMeKwBrPktM28xM
+        cX79DFKrHHD5d9D26hvicx4pABt2lpg10zYzU0zr7+e3xXGcrkEB2O2TNec9nJFwB3alZn5jZorfeDZh
+        6Q3g8s06BeCoKF4MRURoH1+BY2oNCbeb0TIclIYxOhzf8frTOuo7FxCbbVIAzpni0iceEc8vhzEwGkJD
+        lx83ymxifejdKjRNk/8PWnyIyTQqAJek0jqHwfEVscu31baIu8+90sTE4nY025dQ2/5FIPpnXlzKuK8A
+        HBUzHot52djqQ6HZhfR7IwK4mKpHtvEDMqvfCiQ6zaAAXM8x94aIWTNrLLG4kVUzgaTSPlzLtyJOZxbb
+        1wtfyg4Q+AfA3aZlButjSfxGcUJBk4g5tuP3haQKRKXcUQDOmbvNTpPOJeFFjordZmbWTNvMTHFUcpUC
+        nOccAdABIDXXE1nzAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButtonRefresh.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonRefresh.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 24</value>
+    <value>74, 29</value>
   </data>
   <data name="toolStripButtonRefresh.Text" xml:space="preserve">
     <value>Refresh</value>
@@ -330,23 +384,23 @@
   <data name="toolStripButtonSubdirs.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIFSURBVDhPpZLtS1NhGMbPPxJmmlYSgqHiKzGU1EDxg4iK
+        YKyG2WBogqMYJQOtCEVRFBGdTBCJfRnkS4VaaWNT5sqx1BUxRXxDHYxAJLvkusEeBaPAB+5z4Jzn+t3X
+        /aLhnEfjo8m+dCoa+7/C3O2Hqe0zDC+8KG+cRZHZhdzaaWTVTCLDMIY0vfM04Nfh77/G/sEhwpEDbO3t
+        I7TxE8urEVy99fT/AL5gWDLrTB/hnF4XsW0khCu5ln8DmJliT2AXrcNBsU1gj/MH4nMeKwBrPktM28xM
+        cX79DFKrHHD5d9D26hvicx4pABt2lpg10zYzU0zr7+e3xXGcrkEB2O2TNec9nJFwB3alZn5jZorfeDZh
+        6Q3g8s06BeCoKF4MRURoH1+BY2oNCbeb0TIclIYxOhzf8frTOuo7FxCbbVIAzpni0iceEc8vhzEwGkJD
+        lx83ymxifejdKjRNk/8PWnyIyTQqAJek0jqHwfEVscu31baIu8+90sTE4nY025dQ2/5FIPpnXlzKuK8A
+        HBUzHot52djqQ6HZhfR7IwK4mKpHtvEDMqvfCiQ6zaAAXM8x94aIWTNrLLG4kVUzgaTSPlzLtyJOZxbb
+        1wtfyg4Q+AfA3aZlButjSfxGcUJBk4g5tuP3haQKRKXcUQDOmbvNTpPOJeFFjordZmbWTNvMTHFUcpUC
+        nOccAdABIDXXE1nzAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripButtonSubdirs.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonSubdirs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 24</value>
+    <value>136, 29</value>
   </data>
   <data name="toolStripButtonSubdirs.Text" xml:space="preserve">
     <value>Include subdirs</value>
@@ -356,37 +410,37 @@
 If off, only cards from the top directory are shown.</value>
   </data>
   <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 27</value>
+    <value>6, 34</value>
   </data>
   <data name="toolStripButtonDelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACoAAAApCAYAAABDV7v1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIKSURBVFhH7ZghS0NxFMW3T2BQEYMgaBMMos1gMhhsBrsW
-        MYhgsNn8BH4Cm2AwmsRkEwwWEQwWsVgMsjA9R94dZ3/ek+2988bA/eDH5nW797z33HZd4z8yBRcS5+BQ
-        sQ1b8DuxDXfh0PAE05DhAxwaluErTEO+wTU4EFYgh9XpKqzEOkzPUl1uwNKcwbymdchZpbmBeU3rkLNK
-        w0u/NSA5qzLj8KDZbJ44Rc8jOMEBLi5h3uVyyN423mHeEId30MYz1OZX8AJeS43eQ9Yp7+vv+FjW+dy0
-        boNH3WnebrcnWQRcPHToHgx4v5fnnEMbXWfOHLTS+2cKL1kvQ/sOmr36baSfUDOQzEOtlzmjh9DGKdTm
-        HNbIhmu9MCgLGVxCtL4DbfCotbkz6Ca0waPW5s6g/NkGP4s7zRFwiUUwBnVomaC/B+3ir7Og9aKg/GQL
-        ug4axguzOtkZ1ObOoLwqNnjU2twV9IsFJ+nfoiuo1m1Ec8phAYdFvSgol5pA30EeWXCjgfoNqoG0bl3x
-        Al31XEGtK16gq54rqHXFC3TV00AMkVfXQHqJj2HUrSteoKtev0E7/wpna91v3b3iBbrqWYJC64oX6Krn
-        Cmpd8QJd9V7gbeZHVqP8+jHq+lUkHxN1Pjfq1hUvSFc9h/oJZ2MWfsK8gWVsYdmZxq0fNF7EDb/q3q+q
-        7LQjRhTTaPwAGlpByfdB/hUAAAAASUVORK5CYII=
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIESURBVFhH7ZghS0RBFIXP/gKDihgEQZtgEG0Gk8FgM9i1
+        iEEEwzabv8BfYBMMRpOYbILBIoLBIhaLQTaMcpe5y9nL7PLemztucD+4sHvezNwz7+3uO/uAf8gMgCVT
+        C3bQqNkF0AHwYyoA2LeDR8lzwqTWox08SlYBvCVMvgPYsINLsRablax127Qum4mzVKq2bPM6nCcWLFXS
+        qzG3iQVLlfRqjFz6nT8q6ZXNJICjVqt16lkATgBM2WY5XCUulVfJ2m58JBp41b1tlsOLWfwawCWAG6M/
+        RF1KXvMxGSu6zLW6G7Lr3uIhhOmoS/Dgpgc0R15XmXNBc7LpO3NDmjYxmvX7aZFLVqVpbaPx2++GvUPN
+        RX0x1yiAY5qTzZlZXJohNq9klHQJIazv0bFsZNeljG7TsWxk16WMyns35F7cWzyEsBL1CQej3U17YRfn
+        s1DFqNzZlL5N0xczn3gGSxmVq+KG7LqE0W/SXbCfRS+jrLvBhqSZwslqkFEJNQr/gjyR7gYbqmuUDbHu
+        GvEUjnpeRl0jnsJRz8uoa8RTOOqxITGR0gdd4jbprhFP4ahX12jvr3CMdV3dO+IpHPVcjHpHPIWjnpdR
+        14incNR7BXAX65N0efyoOj+KlDGqy1zVXSOeYqOeR7lGPGUewFeiWdPqhBBmbRMXQgjL8VH3YW5Rph0z
+        Zhi/GlpByWBXedsAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="toolStripButtonDelete.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
   <data name="toolStripButtonDelete.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 24</value>
+    <value>34, 29</value>
   </data>
   <data name="toolStripButtonDelete.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
   <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>6, 27</value>
+    <value>6, 34</value>
   </data>
   <data name="detailsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
+    <value>341, 34</value>
   </data>
   <data name="detailsToolStripMenuItem.Text" xml:space="preserve">
     <value>Details</value>
@@ -395,31 +449,37 @@ If off, only cards from the top directory are shown.</value>
     <value>False</value>
   </data>
   <data name="smallIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
+    <value>341, 34</value>
   </data>
   <data name="smallIconsToolStripMenuItem.Text" xml:space="preserve">
     <value>Small icons</value>
   </data>
   <data name="largeIconsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
+    <value>341, 34</value>
   </data>
   <data name="largeIconsToolStripMenuItem.Text" xml:space="preserve">
     <value>Large icons</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 6</value>
+    <value>338, 6</value>
+  </data>
+  <data name="useCheckboxesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 34</value>
+  </data>
+  <data name="useCheckboxesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Use checkboxes</value>
   </data>
   <data name="showUnknowninvalidCardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
+    <value>341, 34</value>
   </data>
   <data name="showUnknowninvalidCardsToolStripMenuItem.Text" xml:space="preserve">
     <value>Show unknown/invalid cards</value>
   </data>
   <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 6</value>
+    <value>338, 6</value>
   </data>
   <data name="openInExplorerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 22</value>
+    <value>341, 34</value>
   </data>
   <data name="openInExplorerToolStripMenuItem.Text" xml:space="preserve">
     <value>Open folder in explorer</value>
@@ -427,47 +487,110 @@ If off, only cards from the top directory are shown.</value>
   <data name="toolStripViewSelect.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIFSURBVDhPpZLtS1NhGMbPPxJmmlYSgqHiKzGU1EDxg4iK
+        YKyG2WBogqMYJQOtCEVRFBGdTBCJfRnkS4VaaWNT5sqx1BUxRXxDHYxAJLvkusEeBaPAB+5z4Jzn+t3X
+        /aLhnEfjo8m+dCoa+7/C3O2Hqe0zDC+8KG+cRZHZhdzaaWTVTCLDMIY0vfM04Nfh77/G/sEhwpEDbO3t
+        I7TxE8urEVy99fT/AL5gWDLrTB/hnF4XsW0khCu5ln8DmJliT2AXrcNBsU1gj/MH4nMeKwBrPktM28xM
+        cX79DFKrHHD5d9D26hvicx4pABt2lpg10zYzU0zr7+e3xXGcrkEB2O2TNec9nJFwB3alZn5jZorfeDZh
+        6Q3g8s06BeCoKF4MRURoH1+BY2oNCbeb0TIclIYxOhzf8frTOuo7FxCbbVIAzpni0iceEc8vhzEwGkJD
+        lx83ymxifejdKjRNk/8PWnyIyTQqAJek0jqHwfEVscu31baIu8+90sTE4nY025dQ2/5FIPpnXlzKuK8A
+        HBUzHot52djqQ6HZhfR7IwK4mKpHtvEDMqvfCiQ6zaAAXM8x94aIWTNrLLG4kVUzgaTSPlzLtyJOZxbb
+        1wtfyg4Q+AfA3aZlButjSfxGcUJBk4g5tuP3haQKRKXcUQDOmbvNTpPOJeFFjordZmbWTNvMTHFUcpUC
+        nOccAdABIDXXE1nzAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripViewSelect.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
   <data name="toolStripViewSelect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 24</value>
+    <value>67, 29</value>
   </data>
   <data name="toolStripViewSelect.Text" xml:space="preserve">
     <value>View</value>
   </data>
+  <data name="segregateBySexToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 34</value>
+  </data>
+  <data name="segregateBySexToolStripMenuItem.Text" xml:space="preserve">
+    <value>Segregate selected by sex</value>
+  </data>
+  <data name="renameCardsToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="renameCardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 34</value>
+  </data>
+  <data name="renameCardsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rename selected card files...</value>
+  </data>
+  <data name="unmarkAllToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 34</value>
+  </data>
+  <data name="unmarkAllToolStripMenuItem.Text" xml:space="preserve">
+    <value>Unmark all</value>
+  </data>
+  <data name="moveSelectedToFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 34</value>
+  </data>
+  <data name="moveSelectedToFolderToolStripMenuItem.Text" xml:space="preserve">
+    <value>Move to folder...</value>
+  </data>
+  <data name="exportAListOfMissingModsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 34</value>
+  </data>
+  <data name="exportAListOfMissingModsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export a list of missing mods...</value>
+  </data>
+  <data name="cardMetadataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 34</value>
+  </data>
+  <data name="cardMetadataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Full card metadata</value>
+  </data>
+  <data name="usedZipmodsAndPluginsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 34</value>
+  </data>
+  <data name="usedZipmodsAndPluginsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Used zipmods and plugins</value>
+  </data>
+  <data name="zipmodUsageincludingUnusedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 34</value>
+  </data>
+  <data name="zipmodUsageincludingUnusedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Zipmod usage (including unused)</value>
+  </data>
+  <data name="pluginUsageincludingUnusedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>379, 34</value>
+  </data>
+  <data name="pluginUsageincludingUnusedToolStripMenuItem.Text" xml:space="preserve">
+    <value>Plugin usage (including unused)</value>
+  </data>
+  <data name="exportToCsvToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 34</value>
+  </data>
+  <data name="exportToCsvToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export to csv...</value>
+  </data>
   <data name="toolStripDropDownButtonTools.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIDSURBVDhPpZLrS5NhGMb3j4SWh0oRQVExD4gonkDpg4hG
-        YKxG6WBogkMZKgPNCEVJFBGdGETEvgwyO9DJE5syZw3PIlPEE9pgBCLZ5XvdMB8Ew8gXbl54nuf63dd9
-        0OGSnwCahxbPRNPAPMw9Xpg6ZmF46kZZ0xSKzJPIrhpDWsVnpBhGkKx3nAX8Pv7z1zg8OoY/cITdn4fw
-        bf/C0kYAN3Ma/w3gWfZL5kzTKBxjWyK2DftwI9tyMYCZKXbNHaD91bLYJrDXsYbrWfUKwJrPE9M2M1Oc
-        VzOOpHI7Jr376Hi9ogHqFIANO0/MmmmbmSmm9a8ze+I4MrNWAdjtoJgWcx+PSzg166yZZ8xM8XvXDix9
-        c4jIqFYAjoriBV9AhEPv1mH/sonogha0afbZMMZz+yreTGyhpusHwtNNCsA5U1zS4BLxzJIfg299qO32
-        Ir7UJtZfftyATqeT+8o2D8JSjQrAJblrncYL7ZJ2+bfaFnC/1S1NjL3diRat7qrO7wLRP3HjWsojBeCo
-        mDEo5mNjuweFGvjWg2EBhCbpkW78htSHHwRyNdmgAFzPEee2iFkzayy2OLXzT4gr6UdUnlXrullsxxQ+
-        kx0g8BTA3aZlButjSTyjODq/WcQcW/B/Je4OQhLvKQDnzN1mp0nnkvAhR8VuMzNrpm1mpjgkoVwB/v8D
-        TgDQASA1MVpwzwAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAIFSURBVDhPpZLtS1NhGMbPPxJmmlYSgqHiKzGU1EDxg4iK
+        YKyG2WBogqMYJQOtCEVRFBGdTBCJfRnkS4VaaWNT5sqx1BUxRXxDHYxAJLvkusEeBaPAB+5z4Jzn+t3X
+        /aLhnEfjo8m+dCoa+7/C3O2Hqe0zDC+8KG+cRZHZhdzaaWTVTCLDMIY0vfM04Nfh77/G/sEhwpEDbO3t
+        I7TxE8urEVy99fT/AL5gWDLrTB/hnF4XsW0khCu5ln8DmJliT2AXrcNBsU1gj/MH4nMeKwBrPktM28xM
+        cX79DFKrHHD5d9D26hvicx4pABt2lpg10zYzU0zr7+e3xXGcrkEB2O2TNec9nJFwB3alZn5jZorfeDZh
+        6Q3g8s06BeCoKF4MRURoH1+BY2oNCbeb0TIclIYxOhzf8frTOuo7FxCbbVIAzpni0iceEc8vhzEwGkJD
+        lx83ymxifejdKjRNk/8PWnyIyTQqAJek0jqHwfEVscu31baIu8+90sTE4nY025dQ2/5FIPpnXlzKuK8A
+        HBUzHot52djqQ6HZhfR7IwK4mKpHtvEDMqvfCiQ6zaAAXM8x94aIWTNrLLG4kVUzgaTSPlzLtyJOZxbb
+        1wtfyg4Q+AfA3aZlButjSfxGcUJBk4g5tuP3haQKRKXcUQDOmbvNTpPOJeFFjordZmbWTNvMTHFUcpUC
+        nOccAdABIDXXE1nzAAAAAElFTkSuQmCC
 </value>
   </data>
   <data name="toolStripDropDownButtonTools.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
     <value>Magenta</value>
   </data>
   <data name="toolStripDropDownButtonTools.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 24</value>
+    <value>71, 29</value>
   </data>
   <data name="toolStripDropDownButtonTools.Text" xml:space="preserve">
     <value>Tools</value>
@@ -479,13 +602,16 @@ If off, only cards from the top directory are shown.</value>
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="toolStripTextBoxSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 27</value>
+    <value>148, 34</value>
   </data>
   <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="toolStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 3, 0</value>
+  </data>
   <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>805, 27</value>
+    <value>1208, 34</value>
   </data>
   <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -505,80 +631,17 @@ If off, only cards from the top directory are shown.</value>
   <data name="&gt;&gt;toolStrip.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="femaleCardFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="femaleCardFolderToolStripMenuItem.Text" xml:space="preserve">
-    <value>Female card folder</value>
-  </data>
-  <data name="maleCardFolderToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 22</value>
-  </data>
-  <data name="maleCardFolderToolStripMenuItem.Text" xml:space="preserve">
-    <value>Male card folder</value>
-  </data>
-  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 6</value>
-  </data>
-  <data name="segregateBySexToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="segregateBySexToolStripMenuItem.Text" xml:space="preserve">
-    <value>Segregate selected by sex</value>
-  </data>
-  <data name="renameCardsToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="renameCardsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="renameCardsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Rename selected card files...</value>
-  </data>
-  <data name="exportAListOfMissingModsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="exportAListOfMissingModsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Export a list of missing mods...</value>
-  </data>
-  <data name="exportToCsvToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 22</value>
-  </data>
-  <data name="exportToCsvToolStripMenuItem.Text" xml:space="preserve">
-    <value>Export to csv...</value>
-  </data>
-  <data name="cardMetadataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
-  </data>
-  <data name="cardMetadataToolStripMenuItem.Text" xml:space="preserve">
-    <value>Full card metadata</value>
-  </data>
-  <data name="usedZipmodsAndPluginsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
-  </data>
-  <data name="usedZipmodsAndPluginsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Used zipmods and plugins</value>
-  </data>
-  <data name="zipmodUsageincludingUnusedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
-  </data>
-  <data name="zipmodUsageincludingUnusedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Zipmod usage (including unused)</value>
-  </data>
-  <data name="pluginUsageincludingUnusedToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>253, 22</value>
-  </data>
-  <data name="pluginUsageincludingUnusedToolStripMenuItem.Text" xml:space="preserve">
-    <value>Plugin usage (including unused)</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>9, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>805, 513</value>
+    <value>1208, 789</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Cards</value>
@@ -595,10 +658,28 @@ If off, only cards from the top directory are shown.</value>
   <data name="&gt;&gt;olvColumnSex.Type" xml:space="preserve">
     <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
   </data>
-  <data name="&gt;&gt;olvColumnPersonality.Name" xml:space="preserve">
-    <value>olvColumnPersonality</value>
+  <data name="&gt;&gt;olvColumnPersonality1.Name" xml:space="preserve">
+    <value>olvColumnPersonality1</value>
   </data>
-  <data name="&gt;&gt;olvColumnPersonality.Type" xml:space="preserve">
+  <data name="&gt;&gt;olvColumnPersonality1.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnPersonality2.Name" xml:space="preserve">
+    <value>olvColumnPersonality2</value>
+  </data>
+  <data name="&gt;&gt;olvColumnPersonality2.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnTrait.Name" xml:space="preserve">
+    <value>olvColumnTrait</value>
+  </data>
+  <data name="&gt;&gt;olvColumnTrait.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
+  </data>
+  <data name="&gt;&gt;olvColumnMentality.Name" xml:space="preserve">
+    <value>olvColumnMentality</value>
+  </data>
+  <data name="&gt;&gt;olvColumnMentality.Type" xml:space="preserve">
     <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
   </data>
   <data name="&gt;&gt;olvColumnExtended.Name" xml:space="preserve">
@@ -757,6 +838,24 @@ If off, only cards from the top directory are shown.</value>
   <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;useCheckboxesToolStripMenuItem.Name" xml:space="preserve">
+    <value>useCheckboxesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;useCheckboxesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showUnknowninvalidCardsToolStripMenuItem.Name" xml:space="preserve">
+    <value>showUnknowninvalidCardsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;showUnknowninvalidCardsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;openInExplorerToolStripMenuItem.Name" xml:space="preserve">
     <value>openInExplorerToolStripMenuItem</value>
   </data>
@@ -779,6 +878,18 @@ If off, only cards from the top directory are shown.</value>
     <value>renameCardsToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;renameCardsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;unmarkAllToolStripMenuItem.Name" xml:space="preserve">
+    <value>unmarkAllToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;unmarkAllToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;moveSelectedToFolderToolStripMenuItem.Name" xml:space="preserve">
+    <value>moveSelectedToFolderToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;moveSelectedToFolderToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;exportAListOfMissingModsToolStripMenuItem.Name" xml:space="preserve">
@@ -823,17 +934,11 @@ If off, only cards from the top directory are shown.</value>
   <data name="&gt;&gt;toolStripTextBoxSearch.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;showUnknowninvalidCardsToolStripMenuItem.Name" xml:space="preserve">
-    <value>showUnknowninvalidCardsToolStripMenuItem</value>
+  <data name="&gt;&gt;olvColumnSexTrait.Name" xml:space="preserve">
+    <value>olvColumnSexTrait</value>
   </data>
-  <data name="&gt;&gt;showUnknowninvalidCardsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
-    <value>toolStripSeparator5</value>
-  </data>
-  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;olvColumnSexTrait.Type" xml:space="preserve">
+    <value>BrightIdeasSoftware.OLVColumn, ObjectListView, Version=2.9.1.1072, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>CardWindow</value>

@@ -1,5 +1,6 @@
 using BrightIdeasSoftware;
 using KKManager.Data.Cards;
+using KKManager.Data.Cards.AI;
 using KKManager.Data.Plugins;
 using KKManager.Data.Zipmods;
 using KKManager.Functions;
@@ -869,7 +870,7 @@ namespace KKManager.Windows.Content
 
                 using (var writer = new StreamWriter(sfd.FileName, false, Encoding.Unicode))
                 {
-                    writer.WriteLine("\"FileName\",\"Size\",\"CardType\",\"CharacterName\",\"Sex\",\"Personality\",\"CreatorID\",\"DataID\",\"Version\",\"ExtendedDataCount\",\"ExtendedSize\",\"MissingZipmods\",\"MissingPlugins\",\"MissingPluginsMaybe\"");
+                    writer.WriteLine("\"FileName\",\"Size\",\"CardType\",\"CharacterName\",\"Sex\",\"Personality1\",\"Personality2\",\"Trait\",\"Mentality\",\"SexTrait\",\"CreatorID\",\"DataID\",\"Version\",\"ExtendedDataCount\",\"ExtendedSize\",\"MissingZipmods\",\"MissingPlugins\",\"MissingPluginsMaybe\"");
 
                     foreach (var card in GetSelectedCards())
                     {
@@ -878,7 +879,11 @@ namespace KKManager.Windows.Content
                         var cardType = card.Type.ToString();
                         var characterName = card.Name ?? "";
                         var sex = card.Sex.ToString();
-                        var personality = card.PersonalityName ?? "";
+                        var personality1 = card.PersonalityName1 ?? "";
+                        var personality2 = card.PersonalityName2 ?? "";
+                        var trait = card.Trait ?? "";
+                        var mentality = card.Mentality ?? "";
+                        var sexTrait = card.SexTrait ?? "";
                         var extendedDataCount = card.Extended?.Count ?? 0;
                         var creatorId = card.UserID ?? "";
                         var dataId = card.DataID ?? "";
@@ -888,7 +893,7 @@ namespace KKManager.Windows.Content
                         var missingPlugins = card.MissingPlugins != null ? string.Join(";", card.MissingPlugins) : "";
                         var missingPluginsMaybe = card.MissingPluginsMaybe != null ? string.Join(";", card.MissingPluginsMaybe) : "";
 
-                        writer.WriteLine($"\"{fileName}\",\"{fileSize}\",\"{cardType}\",\"{characterName}\",\"{sex}\",\"{personality}\",\"{creatorId}\",\"{dataId}\",\"{version}\",\"{extendedDataCount}\",\"{extendedSize}\",\"{missingZipmods}\",\"{missingPlugins}\",\"{missingPluginsMaybe}\"");
+                        writer.WriteLine($"\"{fileName}\",\"{fileSize}\",\"{cardType}\",\"{characterName}\",\"{sex}\",\"{personality1}\",\"{personality2}\",\"{trait}\",\"{mentality}\",\"{sexTrait}\",\"{creatorId}\",\"{dataId}\",\"{version}\",\"{extendedDataCount}\",\"{extendedSize}\",\"{missingZipmods}\",\"{missingPlugins}\",\"{missingPluginsMaybe}\"");
                     }
 
                     writer.WriteLine();

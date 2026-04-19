@@ -34,7 +34,10 @@ namespace KKManager.Windows.Content
             this.listView = new BrightIdeasSoftware.FastObjectListView();
             this.olvColumnName = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.olvColumnSex = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
-            this.olvColumnPersonality = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvColumnPersonality1 = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvColumnPersonality2 = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvColumnTrait = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
+            this.olvColumnMentality = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.olvColumnExtended = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.olvColumnModDate = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             this.olvColumnFileSize = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
@@ -78,6 +81,7 @@ namespace KKManager.Windows.Content
             this.zipmodUsageincludingUnusedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pluginUsageincludingUnusedToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripTextBoxSearch = new System.Windows.Forms.ToolStripTextBox();
+            this.olvColumnSexTrait = ((BrightIdeasSoftware.OLVColumn)(new BrightIdeasSoftware.OLVColumn()));
             ((System.ComponentModel.ISupportInitialize)(this.listView)).BeginInit();
             this.toolStrip.SuspendLayout();
             this.SuspendLayout();
@@ -86,7 +90,11 @@ namespace KKManager.Windows.Content
             // 
             this.listView.AllColumns.Add(this.olvColumnName);
             this.listView.AllColumns.Add(this.olvColumnSex);
-            this.listView.AllColumns.Add(this.olvColumnPersonality);
+            this.listView.AllColumns.Add(this.olvColumnPersonality1);
+            this.listView.AllColumns.Add(this.olvColumnPersonality2);
+            this.listView.AllColumns.Add(this.olvColumnTrait);
+            this.listView.AllColumns.Add(this.olvColumnMentality);
+            this.listView.AllColumns.Add(this.olvColumnSexTrait);
             this.listView.AllColumns.Add(this.olvColumnExtended);
             this.listView.AllColumns.Add(this.olvColumnModDate);
             this.listView.AllColumns.Add(this.olvColumnFileSize);
@@ -102,7 +110,11 @@ namespace KKManager.Windows.Content
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.olvColumnName,
             this.olvColumnSex,
-            this.olvColumnPersonality,
+            this.olvColumnPersonality1,
+            this.olvColumnPersonality2,
+            this.olvColumnTrait,
+            this.olvColumnMentality,
+            this.olvColumnSexTrait,
             this.olvColumnExtended,
             this.olvColumnModDate,
             this.olvColumnFileSize,
@@ -137,11 +149,29 @@ namespace KKManager.Windows.Content
             this.olvColumnSex.MinimumWidth = 35;
             resources.ApplyResources(this.olvColumnSex, "olvColumnSex");
             // 
-            // olvColumnPersonality
+            // olvColumnPersonality1
             // 
-            this.olvColumnPersonality.AspectName = "PersonalityName";
-            this.olvColumnPersonality.MinimumWidth = 70;
-            resources.ApplyResources(this.olvColumnPersonality, "olvColumnPersonality");
+            this.olvColumnPersonality1.AspectName = "PersonalityName1";
+            this.olvColumnPersonality1.MinimumWidth = 70;
+            resources.ApplyResources(this.olvColumnPersonality1, "olvColumnPersonality1");
+            // 
+            // olvColumnPersonality2
+            // 
+            this.olvColumnPersonality2.AspectName = "PersonalityName2";
+            this.olvColumnPersonality2.MinimumWidth = 70;
+            resources.ApplyResources(this.olvColumnPersonality2, "olvColumnPersonality2");
+            // 
+            // olvColumnTrait
+            // 
+            this.olvColumnTrait.AspectName = "Trait";
+            this.olvColumnTrait.MinimumWidth = 70;
+            resources.ApplyResources(this.olvColumnTrait, "olvColumnTrait");
+            // 
+            // olvColumnMentality
+            // 
+            this.olvColumnMentality.AspectName = "Mentality";
+            this.olvColumnMentality.MinimumWidth = 70;
+            resources.ApplyResources(this.olvColumnMentality, "olvColumnMentality");
             // 
             // olvColumnExtended
             // 
@@ -338,7 +368,7 @@ namespace KKManager.Windows.Content
             // 
             this.useCheckboxesToolStripMenuItem.CheckOnClick = true;
             this.useCheckboxesToolStripMenuItem.Name = "useCheckboxesToolStripMenuItem";
-            this.useCheckboxesToolStripMenuItem.Text = "Use checkboxes";
+            resources.ApplyResources(this.useCheckboxesToolStripMenuItem, "useCheckboxesToolStripMenuItem");
             this.useCheckboxesToolStripMenuItem.Click += new System.EventHandler(this.useCheckboxesToolStripMenuItem_Click);
             // 
             // showUnknowninvalidCardsToolStripMenuItem
@@ -388,13 +418,13 @@ namespace KKManager.Windows.Content
             // unmarkAllToolStripMenuItem
             // 
             this.unmarkAllToolStripMenuItem.Name = "unmarkAllToolStripMenuItem";
-            this.unmarkAllToolStripMenuItem.Text = "Unmark all";
+            resources.ApplyResources(this.unmarkAllToolStripMenuItem, "unmarkAllToolStripMenuItem");
             this.unmarkAllToolStripMenuItem.Click += new System.EventHandler(this.unmarkAllToolStripMenuItem_Click);
             // 
             // moveSelectedToFolderToolStripMenuItem
             // 
             this.moveSelectedToFolderToolStripMenuItem.Name = "moveSelectedToFolderToolStripMenuItem";
-            this.moveSelectedToFolderToolStripMenuItem.Text = "Move to folder...";
+            resources.ApplyResources(this.moveSelectedToFolderToolStripMenuItem, "moveSelectedToFolderToolStripMenuItem");
             this.moveSelectedToFolderToolStripMenuItem.Click += new System.EventHandler(this.moveSelectedToFolderToolStripMenuItem_Click);
             // 
             // exportAListOfMissingModsToolStripMenuItem
@@ -444,6 +474,12 @@ namespace KKManager.Windows.Content
             this.toolStripTextBoxSearch.Name = "toolStripTextBoxSearch";
             this.toolStripTextBoxSearch.Overflow = System.Windows.Forms.ToolStripItemOverflow.Never;
             // 
+            // olvColumnSexTrait
+            // 
+            this.olvColumnSexTrait.AspectName = "SexTrait";
+            this.olvColumnSexTrait.MinimumWidth = 70;
+            resources.ApplyResources(this.olvColumnSexTrait, "olvColumnSexTrait");
+            // 
             // CardWindow
             // 
             resources.ApplyResources(this, "$this");
@@ -480,7 +516,10 @@ namespace KKManager.Windows.Content
         private ToolStripButton toolStripButtonGo;
         private ToolStripButton toolStripButtonRefresh;
         private ToolStripSeparator toolStripSeparator3;
-        private BrightIdeasSoftware.OLVColumn olvColumnPersonality;
+        private BrightIdeasSoftware.OLVColumn olvColumnPersonality1;
+        private BrightIdeasSoftware.OLVColumn olvColumnPersonality2;
+        private BrightIdeasSoftware.OLVColumn olvColumnTrait;
+        private BrightIdeasSoftware.OLVColumn olvColumnMentality;
         private BrightIdeasSoftware.OLVColumn olvColumnSex;
         private BrightIdeasSoftware.OLVColumn olvColumnExtended;
         private ToolStripDropDownButton toolStripDropDownButtonTools;
@@ -510,5 +549,6 @@ namespace KKManager.Windows.Content
         private System.Windows.Forms.ToolStripMenuItem useCheckboxesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem unmarkAllToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem moveSelectedToFolderToolStripMenuItem;
+        private BrightIdeasSoftware.OLVColumn olvColumnSexTrait;
     }
 }

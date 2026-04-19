@@ -15,7 +15,11 @@ namespace KKManager.Data.Cards
         public CardType Type { get; }
         public FileSize FileSize { get; }
         public abstract CharaSex Sex { get; }
-        public abstract string PersonalityName { get; }
+        public abstract string PersonalityName1 { get; }
+        public virtual string PersonalityName2 => string.Empty;
+        public virtual string Trait => string.Empty;
+        public virtual string Mentality => string.Empty;
+        public virtual string SexTrait => string.Empty;
         [ReadOnly(true)] public virtual int Language { get; protected set; }
         [ReadOnly(true)] public virtual string UserID { get; protected set; }
         [ReadOnly(true)] public virtual string DataID { get; protected set; }

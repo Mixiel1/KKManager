@@ -12,7 +12,7 @@ namespace KKManager.Data.Cards.HC
     {
         public override string Name => Parameter?.fullname ?? base.Name;
         public override CharaSex Sex => Parameter == null ? CharaSex.Unknown : Parameter.sex == 0 ? CharaSex.Male : CharaSex.Female;
-        public override string PersonalityName => GetProfession(Parameter?.personality ?? -1);
+        public override string PersonalityName1 => GetProfession(Parameter?.personality ?? -1);
         public string Birthday => $"{GetBirthMonth(Parameter.birthMonth)} {Parameter.birthDay}";
         //public string Fetishes => String.Join(", ", GetFetishes(Parameter.propensity));
         //public string Traits => String.Join(", ", GetTraits(Parameter.features));

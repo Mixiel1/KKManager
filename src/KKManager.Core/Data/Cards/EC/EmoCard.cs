@@ -13,8 +13,7 @@ namespace KKManager.Data.Cards.EC
     {
         public override string Name => Parameter == null ? base.Name : Parameter.fullname;
         public override CharaSex Sex => Parameter == null ? CharaSex.Unknown : Parameter.sex == 0 ? CharaSex.Male : CharaSex.Female;
-        public override string PersonalityName => GetPersonalityName(Parameter?.personality ?? -1);
-
+        public override string PersonalityName1 => GetPersonalityName(Parameter?.personality ?? -1);
         public ChaFileParameter Parameter { get; }
 
         private EmoCard(FileInfo cardFile, CardType type, Dictionary<string, PluginData> extended, FileSize extendedSize, ChaFileParameter parameter, Version loadVersion) : base(cardFile, type, extended, extendedSize, loadVersion)

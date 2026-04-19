@@ -57,7 +57,7 @@ namespace KKManager.Data.Cards.KK
             Language = language;
         }
         [Browsable(false)] public override CharaSex Sex => CharaSex.Unknown;
-        [Browsable(false)] public override string PersonalityName => null;
+        [Browsable(false)] public override string PersonalityName1 => null;
         public override string Name { get; }
         public override Image GetCardFaceImage() => null;
     }

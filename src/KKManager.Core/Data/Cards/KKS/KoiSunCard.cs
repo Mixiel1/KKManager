@@ -11,8 +11,7 @@ namespace KKManager.Data.Cards.KKS
     {
         public override string Name => Parameter == null ? base.Name : $"{Parameter.lastname} {Parameter.firstname}";
         public override CharaSex Sex => Parameter == null ? CharaSex.Unknown : Parameter.sex == 0 ? CharaSex.Male : CharaSex.Female;
-        public override string PersonalityName => GetPersonalityName(Parameter?.personality ?? -1);
-
+        public override string PersonalityName1 => GetPersonalityName(Parameter?.personality ?? -1);
         [ReadOnly(true)] public ChaFileParameter Parameter { get; }
         [ReadOnly(true), Browsable(false)] public ChaFileAbout About { get; }
 
